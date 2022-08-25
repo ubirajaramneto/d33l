@@ -18,7 +18,8 @@
         "assets": ["apps/web-app/src/favicon.ico", "apps/web-app/src/assets"],
         "styles": ["apps/web-app/src/styles.scss"],
         "scripts": [],
-        "webpackConfig": "@nrwl/react/plugins/webpack"
+        "webpackConfig": "@nrwl/react/plugins/webpack",
+        "postcssConfig": "apps/web-app/postcss.config.js"
       },
       "configurations": {
         "development": {

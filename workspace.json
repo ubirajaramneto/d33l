@@ -21,7 +21,7 @@
           "options": {
             "preset": "conventional",
             "releaseAs": "minor",
-            "syncVersions":  true
+            "syncVersions": true
           }
         },
         "version-major": {
@@ -29,7 +29,7 @@
           "options": {
             "preset": "conventional",
             "releaseAs": "major",
-            "syncVersions":  true
+            "syncVersions": true
           }
         },
         "version-patch-dr": {
@@ -47,7 +47,7 @@
             "preset": "conventional",
             "releaseAs": "minor",
             "dryRun": true,
-            "syncVersions":  true
+            "syncVersions": true
           }
         },
         "version-major-dr": {
@@ -56,7 +56,7 @@
             "preset": "conventional",
             "releaseAs": "major",
             "dryRun": true,
-            "syncVersions":  true
+            "syncVersions": true
           }
         }
       }
