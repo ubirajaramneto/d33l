@@ -2,7 +2,64 @@
   "$schema": "./node_modules/nx/schemas/workspace-schema.json",
   "version": 2,
   "projects": {
+    "ui": "libs/ui",
     "web-app": "apps/web-app",
-    "web-app-e2e": "apps/web-app-e2e"
+    "web-app-e2e": "apps/web-app-e2e",
+    "workspace": {
+      "root": ".",
+      "targets": {
+        "version-patch": {
+          "executor": "@jscutlery/semver:version",
+          "options": {
+            "preset": "conventional",
+            "releaseAs": "patch",
+            "syncVersions": true
+          }
+        },
+        "version-minor": {
+          "executor": "@jscutlery/semver:version",
+          "options": {
+            "preset": "conventional",
+            "releaseAs": "minor",
+            "syncVersions":  true
+          }
+        },
+        "version-major": {
+          "executor": "@jscutlery/semver:version",
+          "options": {
+            "preset": "conventional",
+            "releaseAs": "major",
+            "syncVersions":  true
+          }
+        },
+        "version-patch-dr": {
+          "executor": "@jscutlery/semver:version",
+          "options": {
+            "preset": "conventional",
+            "releaseAs": "patch",
+            "dryRun": true,
+            "syncVersions": true
+          }
+        },
+        "version-minor-dr": {
+          "executor": "@jscutlery/semver:version",
+          "options": {
+            "preset": "conventional",
+            "releaseAs": "minor",
+            "dryRun": true,
+            "syncVersions":  true
+          }
+        },
+        "version-major-dr": {
+          "executor": "@jscutlery/semver:version",
+          "options": {
+            "preset": "conventional",
+            "releaseAs": "major",
+            "dryRun": true,
+            "syncVersions":  true
+          }
+        }
+      }
+    }
   }
 }
