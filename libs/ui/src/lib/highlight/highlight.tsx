@@ -1,13 +1,29 @@
 import styles from './highlight.module.scss';
 
 /* eslint-disable-next-line */
-export interface HighlightProps {}
+export interface HighlightProps {
+  term: string;
+  text: string;
+}
 
-export function Highlight(props: HighlightProps) {
+export function Highlight({ term, text }: HighlightProps) {
+  if (!term) {
+    return <span>{text}</span>;
+  }
+  const regex = new RegExp(`(${term})`, 'gi');
+  const sections = text.split(regex);
   return (
-    <div className={styles['container']}>
-      <h1>Welcome to Highlight!</h1>
-    </div>
+    <span>
+      {sections
+        .filter((part) => part)
+        .map((part, i) =>
+          regex.test(part) ? (
+            <mark key={i}>{part}</mark>
+          ) : (
+            <span key={i}>{part}</span>
+          )
+        )}
+    </span>
   );
 }
 

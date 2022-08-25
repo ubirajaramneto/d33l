@@ -1,6 +1,7 @@
 import styles from './suggestions.module.scss';
+import Highlight from "../highlight/highlight";
 
-interface ProductSuggestion {
+export interface ProductSuggestion {
   id: number;
   title: string;
   description: string;
@@ -12,11 +13,12 @@ interface ProductSuggestion {
   category: string;
   thumbnail: string;
   images: Array<string>;
+  term: string;
 }
 
 /* eslint-disable-next-line */
 export interface SuggestionsProps {
-  data: any;
+  data: Array<ProductSuggestion>;
 }
 
 /*
@@ -43,17 +45,19 @@ export interface SuggestionsProps {
 ]
 * */
 
-export function Suggestions(props: SuggestionsProps) {
+export function Suggestions({data}: SuggestionsProps) {
+  if (data.length === 0) return null;
+
   return (
     <div className="border-solid border-2 border-slate-400 rounded-lg relative">
       <ul>
-        {props.data.map((item: ProductSuggestion) => {
+        {data.map((item: ProductSuggestion) => {
           return (
-            <li>
-              <div className="flex justify-start items-center m-4">
+            <li key={item.id}>
+              <div className="flex justify-start items-center m-4 hover:bg-slate-100">
                 <img src={item.thumbnail} alt="" width="80px" height="80px" />
                 <div className="text-slate-500">
-                  <p>Title: {item.title}</p>
+                  <p>Title: <Highlight text={item.title} term={item.term} /></p>
                   <p>Price: {item.price}</p>
                 </div>
               </div>
