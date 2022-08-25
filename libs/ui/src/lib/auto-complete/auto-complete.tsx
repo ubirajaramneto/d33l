@@ -1,15 +1,15 @@
-import styles from './auto-complete.module.scss';
 import React, { useEffect, useState } from 'react';
-import Suggestions, { ProductSuggestion } from '../suggestions/suggestions';
+import Suggestions from '../suggestions/suggestions';
+import { Product } from '@d33l/interfaces';
 
 /* eslint-disable-next-line */
 export interface AutoCompleteProps {
-  data: any;
+  filterHandler: (searchTerm: string) => Promise<Array<Product>>;
 }
 
-export function AutoComplete(props: AutoCompleteProps) {
+export function AutoComplete({ filterHandler }: AutoCompleteProps) {
   const [searchTerm, setSearchTerm] = useState('');
-  const [filteredItems, setFilteredItems] = useState([]);
+  const [filteredItems, setFilteredItems] = useState<Array<Product>>([]);
   let timeout: NodeJS.Timeout;
 
   // we don't want to search on every keystroke, so we will debounce here.
@@ -22,15 +22,14 @@ export function AutoComplete(props: AutoCompleteProps) {
   };
 
   useEffect(() => {
+    const filtered = async () => {
+      const items = await filterHandler(searchTerm);
+      setFilteredItems(items);
+    };
     if (searchTerm) {
-      const filtered = props.data
-        ?.filter((item: ProductSuggestion) => {
-          return item.title.includes(searchTerm);
-        })
-        .map((item: ProductSuggestion) => {
-          return {...item, term: searchTerm};
-        });
-      setFilteredItems(filtered);
+      filtered();
+    } else {
+      setFilteredItems([]);
     }
   }, [searchTerm]);
 
@@ -44,7 +43,7 @@ export function AutoComplete(props: AutoCompleteProps) {
         onChange={handleSearchTermChange}
       />
       <div id="auto-complete-container">
-        <Suggestions data={filteredItems} />
+        <Suggestions data={filteredItems} term={searchTerm} />
       </div>
     </div>
   );

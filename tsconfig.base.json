@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@d33l/interfaces": ["libs/interfaces/src/index.ts"],
       "@d33l/ui": ["libs/ui/src/index.ts"]
     }
   },

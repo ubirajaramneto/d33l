@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "title": "iPhone 9",
+      "title": "iphone 9",
       "description": "An apple mobile which is nothing like apple",
       "price": 549,
       "discountPercentage": 12.96,
@@ -21,7 +21,7 @@
     },
     {
       "id": 2,
-      "title": "iPhone X",
+      "title": "iphone X",
       "description": "SIM-Free, Model A19211 6.5-inch Super Retina HD display with OLED technology A12 Bionic chip with ...",
       "price": 899,
       "discountPercentage": 17.94,
@@ -39,7 +39,7 @@
     },
     {
       "id": 3,
-      "title": "Samsung Universe 9",
+      "title": "samsumg universe 9",
       "description": "Samsung's new variant which goes beyond Galaxy to the Universe",
       "price": 1249,
       "discountPercentage": 15.46,
@@ -71,7 +71,7 @@
     },
     {
       "id": 5,
-      "title": "Huawei P30",
+      "title": "huawei P30",
       "description": "Huawei’s re-badged P30 Pro New Edition was officially unveiled yesterday in Germany and now the device has made its way to the UK.",
       "price": 499,
       "discountPercentage": 10.58,
@@ -88,7 +88,7 @@
     },
     {
       "id": 6,
-      "title": "MacBook Pro",
+      "title": "macbook Pro",
       "description": "MacBook Pro 2021 with mini-LED display may launch between September, November",
       "price": 1749,
       "discountPercentage": 11.02,
@@ -106,7 +106,7 @@
     },
     {
       "id": 7,
-      "title": "Samsung Galaxy Book",
+      "title": "samsung Galaxy Book",
       "description": "Samsung Galaxy Book S (2020) Laptop With Intel Lakefield Chip, 8GB of RAM Launched",
       "price": 1499,
       "discountPercentage": 4.15,
@@ -124,7 +124,7 @@
     },
     {
       "id": 8,
-      "title": "Microsoft Surface Laptop 4",
+      "title": "microsoft Surface Laptop 4",
       "description": "Style and speed. Stand out on HD video calls backed by Studio Mics. Capture ideas on the vibrant touchscreen.",
       "price": 1499,
       "discountPercentage": 10.23,
@@ -143,7 +143,7 @@
     },
     {
       "id": 9,
-      "title": "Infinix INBOOK",
+      "title": "infinix INBOOK",
       "description": "Infinix Inbook X1 Ci3 10th 8GB 256GB 14 Win10 Grey – 1 Year Warranty",
       "price": 1099,
       "discountPercentage": 11.83,
@@ -162,7 +162,7 @@
     },
     {
       "id": 10,
-      "title": "HP Pavilion 15-DK1056WM",
+      "title": "hp pavilion 15-DK1056WM",
       "description": "HP Pavilion 15-DK1056WM Gaming Laptop 10th Gen Core i5, 8GB, 256GB SSD, GTX 1650 4GB, Windows 10",
       "price": 1099,
       "discountPercentage": 6.18,
@@ -198,7 +198,7 @@
     },
     {
       "id": 12,
-      "title": "Brown Perfume",
+      "title": "brown perfume",
       "description": "Royal_Mirage Sport Brown Perfume for Men & Women - 120ml",
       "price": 40,
       "discountPercentage": 15.66,
@@ -217,7 +217,7 @@
     },
     {
       "id": 13,
-      "title": "Fog Scent Xpressio Perfume",
+      "title": "fog scent xpressio perfume",
       "description": "Product details of Best Fog Scent Xpressio Perfume 100ml For Men cool long lasting perfumes for Men",
       "price": 13,
       "discountPercentage": 8.14,
@@ -236,7 +236,7 @@
     },
     {
       "id": 14,
-      "title": "Non-Alcoholic Concentrated Perfume Oil",
+      "title": "non-alcoholic concentrated perfume oil",
       "description": "Original Al Munakh® by Mahal Al Musk | Our Impression of Climate | 6ml Non-Alcoholic Concentrated Perfume Oil",
       "price": 120,
       "discountPercentage": 15.6,
@@ -254,7 +254,7 @@
     },
     {
       "id": 15,
-      "title": "Eau De Perfume Spray",
+      "title": "eau de perfume spray",
       "description": "Genuine  Al-Rehab spray perfume from UAE/Saudi Arabia/Yemen High Quality",
       "price": 30,
       "discountPercentage": 10.99,
@@ -273,7 +273,7 @@
     },
     {
       "id": 16,
-      "title": "Hyaluronic Acid Serum",
+      "title": "hyaluronic acid serum",
       "description": "L'OrÃ©al Paris introduces Hyaluron Expert Replumping Serum formulated with 1.5% Hyaluronic Acid",
       "price": 19,
       "discountPercentage": 13.31,
@@ -292,7 +292,7 @@
     },
     {
       "id": 17,
-      "title": "Tree Oil 30ml",
+      "title": "tree oil 30ml",
       "description": "Tea tree oil contains a number of compounds, including terpinen-4-ol, that have been shown to kill certain bacteria,",
       "price": 12,
       "discountPercentage": 4.09,
@@ -310,7 +310,7 @@
     },
     {
       "id": 18,
-      "title": "Oil Free Moisturizer 100ml",
+      "title": "oil free moisturizer 100ml",
       "description": "Dermive Oil Free Moisturizer with SPF 20 is specifically formulated with ceramides, hyaluronic acid & sunscreen.",
       "price": 40,
       "discountPercentage": 13.1,
@@ -329,7 +329,7 @@
     },
     {
       "id": 19,
-      "title": "Skin Beauty Serum.",
+      "title": "skin beauty serum.",
       "description": "Product name: rorec collagen hyaluronic acid white face serum riceNet weight: 15 m",
       "price": 46,
       "discountPercentage": 10.68,
@@ -347,7 +347,7 @@
     },
     {
       "id": 20,
-      "title": "Freckle Treatment Cream- 15gm",
+      "title": "freckle treatment cream- 15gm",
       "description": "Fair & Clear is Pakistan's only pure Freckle cream which helpsfade Freckles, Darkspots and pigments. Mercury level is 0%, so there are no side effects.",
       "price": 70,
       "discountPercentage": 16.99,
@@ -366,7 +366,7 @@
     },
     {
       "id": 21,
-      "title": "- Daal Masoor 500 grams",
+      "title": "- daal masoor 500 grams",
       "description": "Fine quality Branded Product Keep in a cool and dry place",
       "price": 20,
       "discountPercentage": 4.81,
@@ -383,7 +383,7 @@
     },
     {
       "id": 22,
-      "title": "Elbow Macaroni - 400 gm",
+      "title": "elbow macaroni - 400 gm",
       "description": "Product details of Bake Parlor Big Elbow Macaroni - 400 gm",
       "price": 14,
       "discountPercentage": 15.58,
@@ -400,7 +400,7 @@
     },
     {
       "id": 23,
-      "title": "Orange Essence Food Flavou",
+      "title": "orange essence food flavou",
       "description": "Specifications of Orange Essence Food Flavour For Cakes and Baking Food Item",
       "price": 14,
       "discountPercentage": 8.04,
@@ -438,7 +438,7 @@
     },
     {
       "id": 25,
-      "title": "Gulab Powder 50 Gram",
+      "title": "gulab powder 50 gram",
       "description": "Dry Rose Flower Powder Gulab Powder 50 Gram • Treats Wounds",
       "price": 70,
       "discountPercentage": 13.58,
@@ -457,7 +457,7 @@
     },
     {
       "id": 26,
-      "title": "Plant Hanger For Home",
+      "title": "plant hanger for home",
       "description": "Boho Decor Plant Hanger For Home Wall Decoration Macrame Wall Hanging Shelf",
       "price": 41,
       "discountPercentage": 17.86,
@@ -477,7 +477,7 @@
     },
     {
       "id": 27,
-      "title": "Flying Wooden Bird",
+      "title": "flying wooden bird",
       "description": "Package Include 6 Birds with Adhesive Tape Shape: 3D Shaped Wooden Birds Material: Wooden MDF, Laminated 3.5mm",
       "price": 51,
       "discountPercentage": 15.58,
@@ -496,7 +496,7 @@
     },
     {
       "id": 28,
-      "title": "3D Embellishment Art Lamp",
+      "title": "3D embellishment art lamp",
       "description": "3D led lamp sticker Wall sticker 3d wall art light on/off button  cell operated (included)",
       "price": 20,
       "discountPercentage": 16.49,
@@ -515,7 +515,7 @@
     },
     {
       "id": 29,
-      "title": "Handcraft Chinese style",
+      "title": "handcraft chinese style",
       "description": "Handcraft Chinese style art luxury palace hotel villa mansion home decor ceramic vase with brass fruit plate",
       "price": 60,
       "discountPercentage": 15.34,
@@ -534,7 +534,7 @@
     },
     {
       "id": 30,
-      "title": "Key Holder",
+      "title": "key holder",
       "description": "Attractive DesignMetallic materialFour key hooksReliable & DurablePremium Quality",
       "price": 30,
       "discountPercentage": 2.92,
