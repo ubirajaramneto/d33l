@@ -30,7 +30,6 @@ export function AutoComplete(props: AutoCompleteProps) {
         .map((item: ProductSuggestion) => {
           return {...item, term: searchTerm};
         });
-      console.log('Filtered: ', filtered);
       setFilteredItems(filtered);
     }
   }, [searchTerm]);
