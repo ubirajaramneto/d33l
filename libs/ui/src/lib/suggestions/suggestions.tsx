@@ -15,12 +15,12 @@ interface SuggestionsProps {
 
 export function Suggestions({ data, term }: SuggestionsProps) {
   if (data.length === 0 && term.length > 0)
-    return <small className="text-slate-500">No results found...</small>;
+    return <small className="absolute text-slate-500">No results found...</small>;
   if (data.length === 0)
-    return <small className="text-slate-500">for example mac...</small>;
+    return <small className="absolute text-slate-500">for example mac...</small>;
 
   return (
-    <div className="border-solid border-2 border-slate-400 rounded-lg relative">
+    <div className="absolute border-solid border-2 border-slate-400 rounded-lg max-h-[300px] w-[431px] overflow-y-auto">
       <ul>
         {data.map((item: Product) => {
           return (

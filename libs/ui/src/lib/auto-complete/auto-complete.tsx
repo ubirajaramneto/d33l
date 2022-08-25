@@ -15,7 +15,10 @@ export function AutoComplete({ filterHandler }: AutoCompleteProps) {
   // we don't want to search on every keystroke, so we will debounce here.
   const handleSearchTermChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     if (timeout) clearTimeout(timeout);
-
+    if(e.target.value === '') {
+      setSearchTerm('');
+      setFilteredItems([]);
+    }
     timeout = setTimeout(() => {
       setSearchTerm(e.target.value);
     }, 500);
@@ -28,8 +31,6 @@ export function AutoComplete({ filterHandler }: AutoCompleteProps) {
     };
     if (searchTerm) {
       filtered();
-    } else {
-      setFilteredItems([]);
     }
   }, [searchTerm]);
 
